@@ -65,8 +65,12 @@ nav ul a{
     color: #000;
     text-decoration: none;
     margin: 0 10px;
+    pointer-events: none;
 }
 
+nav.active ul a{
+    pointer-events: all;
+}
 .icon{
     background-color: #fff;
     border: 0;
